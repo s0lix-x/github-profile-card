@@ -1,0 +1,51 @@
+:root {
+    --primary-color: #3A7D44;
+    --secondary-color: #264d2b;
+    --triady-color: #302300;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+.card {
+    background-color: var(--primary-color);
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.inputan {
+    display: flex;
+    gap: 20px;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#cari {
+    background-color: #cdff18;
+    padding: 10px;
+    padding-inline: 20px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+#profile {
+    margin-top: 20px;
+    color: white;
+}
+
+#profile img {
+    width: 100px;
+    border-radius: 20px;
+}
